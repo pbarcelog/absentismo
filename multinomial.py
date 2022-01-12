@@ -1,17 +1,13 @@
-import os
-import sys
-import pandas as pd
 from pyspark.ml.classification import LogisticRegression
 from pyspark.ml.evaluation import BinaryClassificationEvaluator, MultilabelClassificationEvaluator
 from pyspark.ml.tuning import ParamGridBuilder, CrossValidator
-from pyspark.sql import Row, SparkSession
+from pyspark.sql import SparkSession
 from pyspark.sql.types import *
 import pyspark.sql.functions as F
-from datetime import datetime, timedelta
+from datetime import datetime
 import numpy as np
-from pyspark.ml.feature import MinMaxScaler, StringIndexer, OneHotEncoder, VectorAssembler, StandardScaler
+from pyspark.ml.feature import StringIndexer, OneHotEncoder, VectorAssembler, StandardScaler
 from pyspark.ml import Pipeline
-import training
 
 """HADOOP_HOME = "C:\\Java\\winutils"
 

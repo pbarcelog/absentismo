@@ -1,26 +1,20 @@
 import references
-import create
+from Other import create
 import openpyxl
 from pathlib import Path
 import pandas as pd
-from datetime import datetime, timedelta
-import json
-from collections import OrderedDict
+from datetime import datetime
 from itertools import islice
-import unidecode
-import numpy as np
 
 import os
 import sys
 #import findspark ######### PROBAR SI SE ESTRELLA ##########
 #findspark.init() #########      CON TAREAS       ##########
-import pyspark
-import pyspark.sql
 # from pyspark.shell import sqlContext
-from pyspark.sql import Row, SparkSession
+from pyspark.sql import SparkSession
 from pyspark.sql.types import *
 import pyspark.sql.functions as F
-from pyspark.sql.functions import col, lit, when
+from pyspark.sql.functions import when
 
 # from pyspark.sql import Row
 
