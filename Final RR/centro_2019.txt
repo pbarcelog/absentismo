@@ -1,0 +1,24 @@
+055Madrid Est.Bás.RH
+055Madrid Est.Neg.Ge
+055 Madrid Estr. Fro
+055Barcelona Est.Del
+055Barcelona Producc
+055Barcelona Pro.Mul
+055Madrid Est.Pl.Des
+055Madrid Estr.Contr
+055Madrid Est.Bá.Sis
+055Madrid Es.CyAs.Ge
+055Madrid Est.Ne Sis
+055 Madrid Pro.Multi
+055 Madrid Comercial
+055Madrid Est.Sel-Fo
+055 Madrid Estr.Oper
+055 Madrid Estr.Cert
+055Madrid Es.Di.Gral
+055Madrid Producción
+055 Jaén Producción
+055 La Rioja Producc
+055Sevilla Es.Div II
+055 Sevilla Estr.Del
+055 Sevilla Pr.Multi
+055 Sevilla Producci
